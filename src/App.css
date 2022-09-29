@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+title{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+  
+}
+main{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorange;
+  
+}
+input{
+  margin-left: 5vw;
+  background-color: darkblue;
+  border: none;
+  border-radius: 3px;
+  height: 20px;
+  
+}
+label{
+  margin-left: 0.3vw;
+}
+#shopBox{
+  width: 100vw;
+  height: 50vh;
+  background-color: darkblue;
+ display: flex;
+ flex-wrap: wrap;
+  
+  
+ 
+}
+.itemBoxes{
+  background-color: darkorange;
+  border: solid white 3px;
+  border-radius: 5px;
+  width: 15%;
+  height: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+}
+.cartItemBoxes{
+  background-color: darkblue;
+  border: solid white 3px;
+  border-radius: 5px;
+  width: 145px;
+  height: 60px;
+  margin-left: 8px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+}
+hr{
+border: solid white 2px;
+  width: 100%;
+}
+.itemName{
+  font-size:large;
+  font-weight: 400;
+
+}
+.buyButton{
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: white  2px solid;
+  background-color: darkblue;
+  
+  
+}
+.deleteButton{
+  width: 100%;
+  height: 30px;
+  background-color: darkblue;
+  border: none;
+  
+}
+
+#cartPrice{
+  width: 100vw;
+  height: 20vh;
+  
+  
+  display: flex;
+
+}
+#cart{
+  width: 80vw;
+  height: 20vh;
+  background-color: darkorange;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+#price{
+  width: 20vw;
+  height: 20vh;
+  background-color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 500;
+  border-left: solid 10px darkblue;
+}
+
+footer{
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+}
